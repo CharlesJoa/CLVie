@@ -114,3 +114,16 @@ a {
 .btn-don:hover {
     background-color: darkred;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header - Contenu - Footer */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
