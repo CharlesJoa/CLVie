@@ -1,5 +1,6 @@
 <?php
 include 'db.php';
+global $pdo;
 
 // Ajouter un article
 if (isset($_POST['ajouter'])) {

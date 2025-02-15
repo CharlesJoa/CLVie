@@ -1,0 +1,22 @@
+# 🏗️ Suivi du Projet - CLVIEIsere
+
+## 📖 Description du Projet
+Suivi du développement du site de la branche Isère de l'association ChoisirLaVie.
+
+
+## 📅 Planning & Avancement
+Tâche / Objectif | Statut | Commentaire |
+|-----------------|--------|-------------|
+ Création des visuels | ✅  | Les couleurs sont celles provenant des plaquettes récupérés |
+ Ajustement des proportions du site | ✅ | aucune remarque |
+[Admin]Gestion de l'ajout d'articles| ✅ | Toute la partie administrative (ajout suppression modif d'article) reste a mettre en couleurs  mais fonctionnel|
+[Admin]Gestion de la suppression des articles | ✅ | Aucune remarque|
+|Création de la base de données|✅|Sommaire mais efficace pour stocker les articles et autres médias /!\ Potentiel probleme de stockage sur le long terme a voir
+[Admin]Gestion de la modification des articles | 🔄 |Un bug étrange lors la modification d'article comprenant des médias (photos, videos) probablement ma faute dans le code|
+Les dons|🔄|Un module en place qui me cause des maux de tête avec des bugs que je corrige au fur et a mesure|
+[Hebergement] Une solution gratuite d'Hébergement |🔄| L'hebergement de la base de donnée et du site en cours| 
+
+📌 **Légende** :
+- ✅ Terminé
+- 🔄 En cours
+- ❌ Bloqué / À revoir
