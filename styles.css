@@ -1,0 +1,116 @@
+/* Style global du site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Bannière en haut du site */
+.banniere {
+    background-color: #c3e4e3;
+    padding: 5px;
+    text-align: left;
+    display: flex; /* Utilisation de flexbox pour centrer et adapter le contenu */
+    justify-content: space-between; /* Si tu veux que le logo soit à gauche et éventuellement un autre élément à droite */
+    align-items: center; /* Alignement vertical centré */
+}
+
+.banniere .logo {
+    width: 100%; /* Le logo prendra la largeur disponible */
+    max-width: 300px; /* Il ne dépassera jamais 300px */
+    height: auto; /* Pour conserver les proportions du logo */
+}
+
+
+/* Menu de navigation */
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: #00a5a7;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Sous-menus */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f4f4f4;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.submenu li {
+    margin: 0;
+}
+
+.submenu a {
+    padding: 10px;
+    display: block;
+    text-align: left;
+}
+
+.submenu a:hover {
+    background-color: #00a5a7;
+    color: white;
+}
+
+/* Afficher le sous-menu au survol */
+.menu-item:hover .submenu {
+    display: block;
+}
+
+/* Style du bouton DON */
+.btn-don {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.btn-don:hover {
+    background-color: darkred;
+}
